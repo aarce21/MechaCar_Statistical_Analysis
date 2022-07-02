@@ -16,3 +16,15 @@ The total summary variance, showing the variance for all three lots combined, is
 ![lot_summary](https://github.com/aarce21/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.PNG)
 
 However, when we created the table to show the variance for each lot individually, we can see that lot 3 did not meet the specifications. Lot 3 has a variance of 170.3 psi, well over the limit of 100 psi. Lot 1, with a variance of 0.98 psi, and lot 2, with a variance of 7.5 psi, do not exceed the limit of 100 psi. 
+
+
+## T-Tests on Suspension Coils
+![t_test](https://github.com/aarce21/MechaCar_Statistical_Analysis/blob/main/images/t_test.PNG)
+
+The T-test results for all manufacturing lots combined returned a p-value of 0.06, which is greater than our benchmark of 0.05%. Therefore, we do not have enough evidence to reject the null hypothesis. 
+
+![lots_ttest](https://github.com/aarce21/MechaCar_Statistical_Analysis/blob/main/images/lots_ttest.PNG)
+
+* The t-test for Lot 1 returned a p-value of 1, which is greated than 0.05% and we are unable to reject the null hypothesis and there is not a significant statistical difference between Lot 1 and the population mean. 
+* The Lot 2 t-test returned a p-value of 0.61. This value is also greater than 0.05%, meaning that we do not have enough evidence to reject the null hypothesis. There is not a significant difference between Lot 2 and the population mean. 
+* The t-test for Lot 3 returned a p-value of 0.04. This value is lower than our benchmark of 0.05%, meaning that we do have anough evidence to reject the null hypothesis. There is a significant statistical difference between Lot 3 and the population mean and Lot 3 may need to undergo further evaluation. 
