@@ -28,3 +28,6 @@ The T-test results for all manufacturing lots combined returned a p-value of 0.0
 * The t-test for Lot 1 returned a p-value of 1, which is greated than 0.05% and we are unable to reject the null hypothesis and there is not a significant statistical difference between Lot 1 and the population mean. 
 * The Lot 2 t-test returned a p-value of 0.61. This value is also greater than 0.05%, meaning that we do not have enough evidence to reject the null hypothesis. There is not a significant difference between Lot 2 and the population mean. 
 * The t-test for Lot 3 returned a p-value of 0.04. This value is lower than our benchmark of 0.05%, meaning that we do have anough evidence to reject the null hypothesis. There is a significant statistical difference between Lot 3 and the population mean and Lot 3 may need to undergo further evaluation. 
+
+
+## Study Design: MechaCar vs Competition
