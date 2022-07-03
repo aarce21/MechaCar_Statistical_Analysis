@@ -31,3 +31,8 @@ The T-test results for all manufacturing lots combined returned a p-value of 0.0
 
 
 ## Study Design: MechaCar vs Competition
+When people are looking into buying a car there are many factors they may take into consideration to make sure they can be confident in their purchase. An important factor for people looking to purchase a MechaCar might be the car's highway mileage. 
+* Metric to test: 
+* Null/Alternative Hypothesis:
+* Statistical test:
+* Data needed: 
