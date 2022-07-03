@@ -1,4 +1,6 @@
 # MechaCar_Statistical_Analysis
+# Overview 
+The goal of this analysis is to help AutosRUs' understand different metrics that might explain the decrease in production they are seeing. By looking at production data, we are aiming to help push the production team forward and ensure they are successful with designing and producing MechaCars. 
 
 ## Linear Regression to Predict MPG
 ![summary_lm_del1](https://github.com/aarce21/MechaCar_Statistical_Analysis/blob/main/images/summary_lm_del1.PNG)
@@ -31,8 +33,9 @@ The T-test results for all manufacturing lots combined returned a p-value of 0.0
 
 
 ## Study Design: MechaCar vs Competition
-When people are looking into buying a car there are many factors they may take into consideration to make sure they can be confident in their purchase. An important factor for people looking to purchase a MechaCar might be the car's highway mileage. 
-* Metric to test: 
-* Null/Alternative Hypothesis:
-* Statistical test:
-* Data needed: 
+When people are looking into buying a car there are many factors they may take into consideration to make sure they can be confident in their purchase. An important factor for people looking to purchase a MechaCar might be the car's maintenance cost. A car with high maintenance costs may deter buyers from making a purchase so it is important to see how much MechaCar's maintenance costs are compared to the competition.  
+* Metric to test: The cost of maintenance for a MechaCar vehicle compared to other competitors. 
+* Null Hypothesis: The cost of maintenance for MechaCar is the same as the cost of maintenance for a competing car 
+* Alternative Hypothesis: The cost of maintenance for MechaCar is significantly more or less expensive that a competing car. 
+* Statistical test: A two-sample t-test would be used to test if the cost of maintenance of MechaCar is the same or significantly then a competitor's vehicle. A two sample t-tets will allow us to look at the average cost of MechaCar maintenance and the average cost of a competing car's maintenance. If the p-value that the t-test yields is greater than 0.05% we can state that there is not enough evidence to reject the null hypothesis and that the cost of maintenance for MechaCar and a competing car are statistically similar. If the p-value is below 0.05% we can state that there is enough evidence to reject the null hypothesis and that the maintenance costs are statistically different. 
+* Data needed: To test this we will need the cost of maintence for MechaCar vehicles and the cost of maintenance for competing vehicles. 
